@@ -1,5 +1,6 @@
 .searh-form {
    display: flex;
+   gap: 10px;
    max-width: 344px;
    height: 56px;
    padding: 8px 8px 8px 20px;
@@ -11,6 +12,7 @@
    backdrop-filter: blur(4px);
 }
 .searh-form__input {
+   flex-grow: 1;
    color: #FFF;
    font-size: 18px;
    font-weight: 700;
@@ -21,6 +23,7 @@
    }
 }
 .searh-form__btn {
+   flex-shrink: 0;
    width: 40px;
    height: 40px;
    background-color: var(--accent);
